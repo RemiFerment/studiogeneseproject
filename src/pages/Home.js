@@ -12,8 +12,8 @@ const Home = () => {
 
                 <div className="col-lg">
                     <div className="row row-cols-2 g-0 justify-content-center">
-                        {navItems.map((item) => (
-                            <Card key={item.to} title={item.to} path={item.to} />
+                        {navItems.map((item, index) => (
+                            <Card key={index} title={item.label} path={item.to} releaseYear={item.releaseYear} />
                         ))}
                     </div>
                 </div>

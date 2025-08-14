@@ -3,11 +3,11 @@ import { NavLink } from 'react-router-dom';
 
 
 export const navItems = [
-    { label: "Studio Génèse", to: "studio-genese" },
-    { label: "Hunivap", to: "hunivap" },
-    { label: "The Noa Island", to: "the-noah-island" },
-    { label: "Nangas", to: "nangas" },
-    { label: "La Bonne Fessée", to: "la-bonne-fessee" }
+    { label: "Studio Génèse", to: "studio-genese", releaseYear: "2025" },
+    { label: "Hunivap", to: "hunivap", releaseYear: "2025" },
+    { label: "The Noah Island", to: "the-noah-island", releaseYear: "2025" },
+    { label: "Nangas", to: "nangas", releaseYear: "2025" },
+    { label: "La Bonne Fessée", to: "la-bonne-fessee", releaseYear: "2025" }
 ];
 
 const Navigation = () => {
