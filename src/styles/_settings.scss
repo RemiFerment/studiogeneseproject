@@ -5,8 +5,8 @@
 
 $font-1: "font-1", sans-serif;
 
-$color-1: #61dafb;
-$color-2: salmon;
+$color-1: #848C57;
+$color-2: #6a7046;
 $color-3: #282c34;
 $white: rgb(243, 243, 243);
 
@@ -27,6 +27,19 @@ body {
   font-family: $font-1;
   // @include verticalCenter;
 }
+
 li {
   list-style-type: none;
+}
+
+.sg-color {
+  color: $color-1;
+}
+
+.sg-bg {
+  background-color: $color-1
+}
+
+.sg-bg-hover {
+  background-color: $color-2;
 }
