@@ -1,3 +1,5 @@
 https://www.youtube.com/watch?v=f0X1Tl8aHtA
 
-Mise en place des cards sur le Home avec une boucle reprennant la const NavItems de Navigation.js, puis mise en place des pages manquantes
+Marge cote à régler (moins de marge)
+plus de marge au dessus
+menu burger sur le téco
