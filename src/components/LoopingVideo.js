@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 
 // 🔁 Composant prêt à l'emploi pour lire une vidéo en boucle en React
 // - Autoplay fiable (Chrome, Safari iOS/Android) grâce à muted + playsInline
@@ -13,9 +13,9 @@ export default function LoopingVideo({
     style,
 }) {
     const videoRef = useRef(null);
-    const [setReady] = useState(false);
-    const [setPlaying] = useState(false);
-    const [setError] = useState("");
+    // const [ready, setReady] = useState(false);
+    // const [playing, setPlaying] = useState(false);
+    // const [error, setError] = useState("");
 
     // Essaye de lancer la vidéo dès que possible
     const tryPlay = async () => {
@@ -25,8 +25,8 @@ export default function LoopingVideo({
             const p = el.play();
             // Certains navigateurs retournent une Promise
             if (p && typeof p.then === "function") await p;
-            setPlaying(!el.paused);
-            setError("");
+            // setPlaying(!el.paused);
+            // setError("");
             // Petit log discret pour débogage
             console.debug("▶️ Video playing:", {
                 paused: el.paused,
@@ -36,11 +36,11 @@ export default function LoopingVideo({
             });
         } catch (e) {
             // Échec d'autoplay (souvent faute d'interaction utilisateur)
-            console.warn("Autoplay bloqué ou erreur de lecture:", e);
-            setError(
-                "Autoplay bloqué par le navigateur. Clique sur le bouton pour lancer la vidéo."
-            );
-            setPlaying(false);
+            // console.warn("Autoplay bloqué ou erreur de lecture:", e);
+            // setError(
+            //     "Autoplay bloqué par le navigateur. Clique sur le bouton pour lancer la vidéo."
+            // );
+            // setPlaying(false);
         }
     };
 
@@ -50,20 +50,20 @@ export default function LoopingVideo({
     }, [src]);
 
     const onLoadedData = () => {
-        setReady(true);
+        // setReady(true);
         // Dès que possible, retente le play (certains browsers exigent loadeddata)
         tryPlay();
     };
 
-    const onPlay = () => setPlaying(true);
-    const onPause = () => setPlaying(false);
-    const onError = (e) => {
-        const mediaErr = e?.target?.error;
-        setError(
-            mediaErr?.message ||
-            "Impossible de lire la vidéo (vérifie le chemin, le CORS et le type MIME)."
-        );
-    };
+    // const onPlay = () => setPlaying(true);
+    // const onPause = () => setPlaying(false);
+    // const onError = (e) => {
+    //     const mediaErr = e?.target?.error;
+    //     setError(
+    //         mediaErr?.message ||
+    //         "Impossible de lire la vidéo (vérifie le chemin, le CORS et le type MIME)."
+    //     );
+    // };
 
     return (
         <div className="flex flex-col items-center gap-3">
@@ -83,9 +83,9 @@ export default function LoopingVideo({
                 className={className}
                 style={style}
                 onLoadedData={onLoadedData}
-                onPlay={onPlay}
-                onPause={onPause}
-                onError={onError}
+            // onPlay={true}
+            // onPause={false}
+            // onError={onError}
             />
         </div>
     );
