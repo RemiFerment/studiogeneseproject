@@ -3,23 +3,20 @@ import Navigation from '../components/Navigation';
 
 const About = () => {
     return (
-        <div className="container my-5">
+        <div className="container my-2">
             <div className="row">
                 <div className="col-lg-3">
                     <Navigation />
                 </div>
-
-                <div className="col-lg">
-                    <h1>A propos de moi</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vitae repellat laborum repellendus, perspiciatis harum ab reprehenderit
-                        iure ut, magnam consequuntur libero ratione ea rem debitis est. Sunt nisi placeat vel accusamus totam provident voluptas deleniti
-                        reprehenderit accusantium. Quis, ipsa?</p>
-                    <br /><br />
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vitae repellat laborum repellendus, perspiciatis harum ab reprehenderit
-                        iure ut, magnam consequuntur libero ratione ea rem debitis est. Sunt nisi placeat vel accusamus totam provident voluptas deleniti
-                        reprehenderit accusantium. Quis, ipsa?</p>
-
+                <div className="col-lg-9 text-center d-flex flex-column justify-content-center align-items-center">
+                    <h1 className='my-5 text-uppercase fw-bold'>Qui suis-je ?</h1>
+                    <div className="d-flex ">
+                        <h1>
+                            <i class="bi bi-cone-striped text-warning"></i>
+                            Cette partie du site n'est pas encore fini...
+                            <i class="bi bi-cone-striped text-warning"></i>
+                        </h1>
+                    </div>
                 </div>
             </div>
         </div>

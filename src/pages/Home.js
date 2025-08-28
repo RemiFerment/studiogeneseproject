@@ -10,7 +10,7 @@ const Home = () => {
                     <Navigation />
                 </div>
 
-                <div className="col-lg">
+                <div className="col-lg-9 my-5">
                     <div className="row row-cols-lg-2 g-0 justify-content-center row-cols-1">
                         {navItems.map((item, index) => (
                             <Card key={index} title={item.label} path={item.to} releaseYear={item.releaseYear} />

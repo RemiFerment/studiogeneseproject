@@ -30,32 +30,41 @@ const Navigation = () => {
                 </button>
 
                 <br className='my-5' />
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav flex-column text-center justify-content-center">
-                        <NavLink to="/" className={((nav) => (nav.isActive ? "nav-item nav-active my-2" : "nav-item my-2"))}>
-                            <li><b>WORK</b></li>
-                        </NavLink>
-                        <hr className='my-3' />
-                        {navItems.map((item, index) => (
-                            <NavLink
-                                key={index}
-                                to={"/" + item.to}
-                                className={(nav) => (nav.isActive ? "nav-active nav-item" : "nav-item")}
-                            >
-                                <li>{item.label}</li>
-                            </NavLink>))}
-                        <hr className='my-3' />
-                        <NavLink to="/about" className={((nav) => (nav.isActive ? "nav-item nav-active my-2" : "nav-item my-2"))}>
-                            <li>A propos de moi</li>
-                        </NavLink>
-                        <NavLink to="/contact" className={((nav) => (nav.isActive ? "nav-item nav-active my-2" : "nav-item my-2"))}>
-                            <li>Me contacter</li>
-                        </NavLink>
+                <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
+                    <ul className="navbar-nav flex-column text-left justify-content-center ms-5 w-100">
+                        <li>
+                            <NavLink to="/" className={((nav) => (nav.isActive ? "nav-item nav-active" : "nav-item"))}>
+                                WORK
+                            </NavLink>
+                            <div className='my-3 '>
+                                {navItems.map((item, index) => (
+                                    <li className='my-2'>
+                                        <NavLink
+                                            key={index}
+                                            to={"/" + item.to}
+                                            className={(nav) => (nav.isActive ? "nav-active nav-item" : "nav-item")}
+                                        >
+                                            {item.label}
+                                        </NavLink>
+                                    </li>
+                                ))}
+                            </div>
+                        </li>
+                        <li className='my-3'>
+                            <NavLink to="/about" className={((nav) => (nav.isActive ? "nav-item nav-active text-uppercase" : "nav-item  text-uppercase"))}>
+                                à propos de moi
+                            </NavLink>
+                        </li>
+                        <li className='my-3'>
+                            <NavLink to="/contact" className={((nav) => (nav.isActive ? "nav-item nav-active text-uppercase" : "nav-item  text-uppercase"))}>
+                                Me contacter
+                            </NavLink>
+                        </li>
                     </ul>
-                </div>
-            </div>
+                </div >
+            </div >
 
-        </nav>
+        </nav >
     );
 };
 

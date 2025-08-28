@@ -6,7 +6,7 @@ const Card = ({ title, path, releaseYear }) => {
         <div className="col card">
             <NavLink to={`/${path}`} className="d-block">
                 <img
-                    src={`./img/card/${path}/card-${path}.jpg`}
+                    src={`./img/card/${path}/card-${path}.webp`}
                     alt={`Carte ${title}`}
                     className="img-fluid d-block w-100"
                 />
