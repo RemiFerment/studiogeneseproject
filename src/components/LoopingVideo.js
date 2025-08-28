@@ -13,9 +13,9 @@ export default function LoopingVideo({
     style,
 }) {
     const videoRef = useRef(null);
-    const [ready, setReady] = useState(false);
-    const [playing, setPlaying] = useState(false);
-    const [error, setError] = useState("");
+    const [setReady] = useState(false);
+    const [setPlaying] = useState(false);
+    const [setError] = useState("");
 
     // Essaye de lancer la vidéo dès que possible
     const tryPlay = async () => {
