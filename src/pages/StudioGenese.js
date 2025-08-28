@@ -9,7 +9,7 @@ const StudioGenese = () => {
                     <Navigation />
                 </div>
                 <div className="col-lg-9 text-center">
-                    <h1 className='my-5 text-uppercase'>Studio Génèse</h1>
+                    <h1 className='my-5 text-uppercase'>Studio Genèse</h1>
                     <p className='sg-font-size sg-color-secondary p-5 lh-1'><b>Studio Genèse</b> est né d'une conviction forte : chaque projet mérite une attention particulière dès ses premiers
                         instants. Le mot "Genèse" incarne ce moment précieux où tout commence, où les idées prennent forme et s’animent. C’est à
                         cette étape fondatrice que j’aime intervenir, en accompagnant mes clients dès la naissance de leur univers visuel.
