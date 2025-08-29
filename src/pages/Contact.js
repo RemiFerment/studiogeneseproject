@@ -17,7 +17,7 @@ const Contact = () => {
               className='d-flex flex-column gap-2'
               data-netlify="true"
               data-netlify-honeypot="bot-field"
-              action={"/success"}>
+              action="/success">
               <input type="hidden" name="form-name" value="contact" />
               <label className='mt-3'>Votre nom: </label>
               <input type="text" name="name" />
