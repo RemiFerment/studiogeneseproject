@@ -11,8 +11,13 @@ const Contact = () => {
         <div className="col-lg-9 text-center d-flex flex-column justify-content-center align-items-center">
           <h1 className='my-5 text-uppercase fw-bold'>Formulaire de contact</h1>
           <div className="w-75 text-start">
-            <form name="contact" method="post" className='d-flex flex-column gap-2' data-netlify="true" data-netlify-honeypot="bot-field">
-              {/* You still need to add the hidden input with the form name to your JSX form */}
+            <form
+              name="contact"
+              method="post"
+              className='d-flex flex-column gap-2'
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              action={"/success"}>
               <input type="hidden" name="form-name" value="contact" />
               <label className='mt-3'>Votre nom: </label>
               <input type="text" name="name" />

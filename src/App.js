@@ -9,6 +9,7 @@ import Nangas from './pages/Nangas';
 import TheNoahIsland from './pages/TheNoahIsland';
 import LaBonneFessee from './pages/LaBonneFessee';
 import Contact from './pages/Contact';
+import Success from './pages/success';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/the-noah-island" element={<TheNoahIsland />} />
         <Route path="/la-bonne-fessee" element={<LaBonneFessee />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/success" element={<Success />} />
         {/* path=* => Renvoie sur la page 404 not found */}
         <Route path="*" element={<NotFound />} />
       </Routes>
