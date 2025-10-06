@@ -11,7 +11,6 @@ import LaBonneFessee from './pages/LaBonneFessee';
 import Contact from './pages/Contact';
 import Success from './pages/Success';
 
-
 const App = () => {
   return (
     <BrowserRouter>

@@ -12,9 +12,9 @@ const About = () => {
                     <h1 className='my-5 text-uppercase fw-bold'>Qui suis-je ?</h1>
                     <div className="d-flex ">
                         <h1>
-                            <i class="bi bi-cone-striped text-warning"></i>
+                            <i className="bi bi-cone-striped text-warning"></i>
                             Cette partie du site n'est pas encore fini...
-                            <i class="bi bi-cone-striped text-warning"></i>
+                            <i className="bi bi-cone-striped text-warning"></i>
                         </h1>
                     </div>
                 </div>

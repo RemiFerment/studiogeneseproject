@@ -11,7 +11,21 @@ const Hunivap = () => {
                 </div>
                 <div className="col-lg-9 text-center d-flex flex-column justify-content-center align-items-center">
                     <h1 className='my-5 text-uppercase font-sg'>Hunivap</h1>
-                    <p className='sg-font-size sg-color-secondary p-5 lh-1'><b>Hunivap</b> est une boutique de e-cigarettes et e-liquides
+                    
+                    <button
+                    className="btn btn-secondary w-100"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsHunivap"
+                    aria-expanded="false"
+                    aria-controls="collapsHunivap"
+                    >
+                    En savoir plus...
+                    </button>
+
+                    <div className="collapse" id="collapsHunivap">
+                        <div className="card card-body w-100">
+                            <p className='sg-font-size sg-color-secondary p-5 lh-1'><b>Hunivap</b> est une boutique de e-cigarettes et e-liquides
                         située en plein cœur de Rouen, à deux pas de la cathédrale. Pour ce projet, l’enjeu était clair : repenser complètement
                         leur identité visuelle afin d’exprimer un univers plus moderne et brut, fidèle à leur ambiance à la fois industrielle et
                         chaleureuse.
@@ -21,6 +35,9 @@ const Hunivap = () => {
                         <br /><br />
                         Le contraste entre un jaune clair et un rouge profond vient renforcer cette identité : il crée un dialogue visuel dynamique,
                         évoquant à la fois l’énergie de la ville et la convivialité du lieu.</p>
+                        </div>
+                    </div>
+
                     <br /><br />
                     <img src="./img/card/hunivap/card-hunivap.webp" alt="Charte Graphique Hunivap" className='img-fluid d-block w-100 my-3' />
                     <img src="./img/card/hunivap/Charte_Hunivap-03.webp" alt="Charte Graphique Hunivap" className='img-fluid d-block w-100 my-3' />

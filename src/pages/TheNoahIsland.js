@@ -10,6 +10,19 @@ const TheNoahIsland = () => {
                 </div>
                 <div className="col-lg-9 text-center">
                     <h1 className='my-5 text-uppercase font-sg'>The Noah Island</h1>
+                     <button
+                    className="btn btn-secondary w-100"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTNI"
+                    aria-expanded="false"
+                    aria-controls="collapseTNI"
+                    >
+                    En savoir plus...
+                    </button>
+
+                    <div className="collapse" id="collapseTNI">
+                        <div className="card card-body w-100">
                     <p className='sg-font-size sg-color-secondary p-5 lh-1'><strong>The Noa Island</strong>, située au cœur de l’océan Pacifique, est
                         une île unique en son genre, née d’une réflexion sur le thème du manque. Pour combler le manque de communication
                         entre les maîtres et leurs animaux (responsable de 78 % des conflits) nous avons imaginé un lieu entouré d’un
@@ -22,6 +35,8 @@ const TheNoahIsland = () => {
                         est au cœur de la relation maître-animal.
                         <br /><br /><br /><br />
                         Ceci est un projet fictif.</p>
+                        </div>
+                    </div>
                     <br /><br />
 
                     <img src="./img/card/the-noah-island/card-the-noah-island.webp" alt="Charte Graphique The Noah Island" className='img-fluid d-block w-100 my-3' />
