@@ -9,7 +9,7 @@ const LaBonneFessee = () => {
                     <Navigation />
                 </div>
                 <div className="col-lg-9 text-center">
-                    <h1 className='my-5 text-uppercase'>La bonne fessée</h1>
+                    <h1 className='my-5 text-uppercase font-sg'>La bonne fessée</h1>
                     <p className='sg-font-size sg-color-secondary p-5 lh-1'>Création de l’identité visuelle d’une pizzeria La Bonne Fessée.
                         L’idée était de jouer sur le ton décalé tout en gardant une approche moderne, lisible et jamais vulgaire. Le logo
                         combine une typographie pleine de caractère avec une mise en page simple et efficace.

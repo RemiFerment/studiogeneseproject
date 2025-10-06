@@ -9,7 +9,7 @@ const TheNoahIsland = () => {
                     <Navigation />
                 </div>
                 <div className="col-lg-9 text-center">
-                    <h1 className='my-5 text-uppercase'>The Noah Island</h1>
+                    <h1 className='my-5 text-uppercase font-sg'>The Noah Island</h1>
                     <p className='sg-font-size sg-color-secondary p-5 lh-1'><strong>The Noa Island</strong>, située au cœur de l’océan Pacifique, est
                         une île unique en son genre, née d’une réflexion sur le thème du manque. Pour combler le manque de communication
                         entre les maîtres et leurs animaux (responsable de 78 % des conflits) nous avons imaginé un lieu entouré d’un

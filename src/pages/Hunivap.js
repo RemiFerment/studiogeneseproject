@@ -10,7 +10,7 @@ const Hunivap = () => {
                     <Navigation />
                 </div>
                 <div className="col-lg-9 text-center d-flex flex-column justify-content-center align-items-center">
-                    <h1 className='my-5 text-uppercase'>Hunivap</h1>
+                    <h1 className='my-5 text-uppercase font-sg'>Hunivap</h1>
                     <p className='sg-font-size sg-color-secondary p-5 lh-1'><b>Hunivap</b> est une boutique de e-cigarettes et e-liquides
                         située en plein cœur de Rouen, à deux pas de la cathédrale. Pour ce projet, l’enjeu était clair : repenser complètement
                         leur identité visuelle afin d’exprimer un univers plus moderne et brut, fidèle à leur ambiance à la fois industrielle et

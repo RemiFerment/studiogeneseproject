@@ -14,9 +14,9 @@ const Navigation = () => {
     return (
 
         <nav className='navbar navbar-expand-lg'>
-            <div className='container-fluid navigation d-flex flex-column justify-content-center align-items-center'>
+            <div className='container-fluid navigation d-flex flex-column justify-content-between align-items-center'>
                 <div className="navigation mt-4 flex-2 d-none d-xl-block">
-                    <div className='text-center'>
+                    <div className='text-center me-5'>
                         <img src="./img/Logo.webp" alt="" width="50%" />
                     </div>
                 </div>

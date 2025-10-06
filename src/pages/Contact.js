@@ -9,7 +9,7 @@ const Contact = () => {
           <Navigation />
         </div>
         <div className="col-lg-9 text-center d-flex flex-column justify-content-center align-items-center">
-          <h1 className='my-5 text-uppercase fw-bold'>Formulaire de contact</h1>
+          <h1 className='my-5 text-uppercase fw-bold font-sg'>Formulaire de contact</h1>
           <div className="w-75 text-start">
             <form
               name="contact"

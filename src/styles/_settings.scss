@@ -29,8 +29,12 @@ html {
 
 body {
   background: $white;
-  font-family: $font-1;
+  font-family: Helvetica, sans-serif;
   // @include verticalCenter;
+}
+
+.font-sg{
+  font-family: $font-1;
 }
 
 li {
@@ -56,4 +60,11 @@ li {
 
 .sg-font-size {
   font-size: 1.4rem;
+}
+
+@media (max-width: 991px) {
+  .navbar-toggler {
+    position: relative;
+    left: 0;
+  }
 }

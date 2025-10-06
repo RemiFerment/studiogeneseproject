@@ -10,7 +10,7 @@ const Nangas = () => {
                     <Navigation />
                 </div>
                 <div className="col-lg-9 text-center">
-                    <h1 className='my-5 text-uppercase'>Nangas</h1>
+                    <h1 className='my-5 text-uppercase font-sg'>Nangas</h1>
                     <p className='sg-font-size sg-color-secondary p-5 lh-1'>Pour un ami streamer dont le pseudo est <b>Nangas</b>, j’ai réalisé un
                         logo et une bannière sur mesure pour sa chaîne Twitch. Il voulait une identité visuelle dans un univers spatial, avec
                         des planètes, étoiles et vaisseaux, le tout dans un style cartoon coloré.
