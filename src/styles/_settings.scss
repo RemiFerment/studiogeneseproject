@@ -30,7 +30,7 @@ html {
 body {
   background: $white;
   font-family: Helvetica, sans-serif;
-  // @include verticalCenter;
+  font-size :1.1rem;
 }
 
 .font-sg{
@@ -59,12 +59,5 @@ li {
 }
 
 .sg-font-size {
-  font-size: 1.4rem;
-}
-
-@media (max-width: 991px) {
-  .navbar-toggler {
-    position: relative;
-    left: 0;
-  }
+  font-size: 1.2rem;
 }

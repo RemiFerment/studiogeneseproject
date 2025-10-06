@@ -26,7 +26,7 @@ const Navigation = () => {
 
                 <br className='my-5' />
                 <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
-                    <ul className="navbar-nav flex-column text-left justify-content-center ms-5 w-100">
+                    <ul className="navbar-nav flex-column text-left justify-content-center ms-5 w-100 font-sg">
                         <li>
                             <NavLink to="/" className={((nav) => (nav.isActive ? "nav-item nav-active" : "nav-item"))}>
                                 WORK

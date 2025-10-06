@@ -16,6 +16,7 @@ html {
 body {
   background: rgb(243, 243, 243);
   font-family: Helvetica, sans-serif;
+  font-size: 1.1rem;
 }
 
 .font-sg {
@@ -43,15 +44,9 @@ li {
 }
 
 .sg-font-size {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
-@media (max-width: 991px) {
-  .navbar-toggler {
-    position: relative;
-    left: 0;
-  }
-}
 .navigation {
   margin-top: 2rem;
 }
