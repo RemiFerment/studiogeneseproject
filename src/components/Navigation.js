@@ -16,7 +16,9 @@ const Navigation = () => {
         {/* Logo */}
         <div className="navigation mt-4 flex-2 d-none d-xl-block">
           <div className="text-center me-5">
-            <img src="./img/Logo.webp" alt="Logo Studio Genèse" width="50%" />
+            <a href="/">
+              <img src="./img/Logo.webp" alt="Logo Studio Genèse" width="50%" />
+            </a>
           </div>
         </div>
 
