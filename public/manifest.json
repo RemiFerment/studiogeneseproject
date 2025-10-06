@@ -1,0 +1,28 @@
+{
+  "short_name": "StudioGenese",
+  "name": "Studio Genèse – Creative Portfolio",
+  "description": "Portfolio créatif de Studio Genèse, présentant des projets graphiques et visuels tels que The Noah Island, Hunivap et d'autres réalisations.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/img/logo.webp",
+      "type": "image/webp",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/logo.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "lang": "fr-FR"
+}
