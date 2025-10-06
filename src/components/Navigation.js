@@ -13,19 +13,14 @@ export const navItems = [
 const Navigation = () => {
     return (
 
-        <nav className='navbar navbar-expand-lg'>
+        <nav className='navbar navbar-expand-lg d-flex align-items-start justify-content-start w-100'>
             <div className='container-fluid navigation d-flex flex-column justify-content-between align-items-center'>
                 <div className="navigation mt-4 flex-2 d-none d-xl-block">
                     <div className='text-center me-5'>
                         <img src="./img/Logo.webp" alt="" width="50%" />
                     </div>
                 </div>
-                <div className="navigation mb-4 ms-2 flex-2 d-block d-sm-none justify-content-between">
-                    <div className='text-center'>
-                        <img src="./img/Logo.webp" alt="" width="20%" />
-                    </div>
-                </div>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler align-self-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
