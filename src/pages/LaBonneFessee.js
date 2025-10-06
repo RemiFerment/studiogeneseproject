@@ -38,7 +38,7 @@ const LaBonneFessee = () => {
                         </div>
                     </div>
                     <br /><br />
-                    <img src="./img/card/la-bonne-fessee/card-la-bonne-fessee.webp" alt="Logo La bonne fessée" className='img-fluid d-block w-100 my-3' />
+                    <img src="./img/card/la-bonne-fessee/La-bonne-fessee.webp" alt="Logo La bonne fessée" className='img-fluid d-block w-100 my-3' />
                 </div>
             </div>
         </div>

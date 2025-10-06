@@ -39,7 +39,7 @@ const TheNoahIsland = () => {
           <div className="collapse" id="collapseTNI">
             <div className="card card-body w-100">
               <p className="sg-font-size sg-color-secondary p-5 lh-1">
-                <strong>The Noa Island</strong>, située au cœur de l’océan Pacifique, est une île unique en son genre,
+                <strong>The Noah Island</strong>, située au cœur de l’océan Pacifique, est une île unique en son genre,
                 née d’une réflexion sur le thème du manque. Pour combler le manque de communication entre les maîtres et
                 leurs animaux (responsable de 78 % des conflits), nous avons imaginé un lieu entouré d’un dôme diffusant
                 un gaz spécial, permettant aux animaux de parler la langue de leurs maîtres.
@@ -48,7 +48,7 @@ const TheNoahIsland = () => {
                 Projet réalisé dans le cadre d’un workshop à l’ECV Paris autour du manque.
                 <br />
                 <br />
-                En équipe, nous avons créé toute l’identité visuelle de Noa Island, des affiches et du logo pour se faire
+                En équipe, nous avons créé toute l’identité visuelle de Noah Island, des affiches et du logo pour se faire
                 connaître, jusqu’à la signalétique et les activités à l’intérieur de l’île, offrant une expérience inédite
                 où la communication est au cœur de la relation maître-animal.
                 <br />
