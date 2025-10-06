@@ -25,7 +25,13 @@ const Contact = () => {
               <input type="email" name="email" />
               <label className='mt-3'>Message:</label>
               <textarea name="message" rows="8"></textarea>
-              <button type="submit" className='btn btn-success sg-bg w-25'>Envoyer</button>
+              <button
+                type="submit"
+                className="btn btn-success sg-bg w-auto align-self-start"
+              >
+                Envoyer
+              </button>
+
             </form>
           </div>
         </div>
