@@ -24,7 +24,7 @@ const Nangas = () => {
 
                     <div className="collapse" id="collapseNangas">
                         <div className="card card-body w-100">
-                    <p className='sg-font-size sg-color-secondary p-5 lh-1'>Pour un ami streamer dont le pseudo est <b>Nangas</b>, j’ai réalisé un
+                    <p className='sg-font-size sg-color-secondary p-2 lh-1'>Pour un ami streamer dont le pseudo est <b>Nangas</b>, j’ai réalisé un
                         logo et une bannière sur mesure pour sa chaîne Twitch. Il voulait une identité visuelle dans un univers spatial, avec
                         des planètes, étoiles et vaisseaux, le tout dans un style cartoon coloré.
                         Le logo représente une planète vivante et expressive, qui semble sortir d’un dessin animé. La bannière, elle, plonge
