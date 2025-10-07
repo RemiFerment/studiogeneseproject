@@ -10,20 +10,20 @@ const LaBonneFessee = () => {
                 </div>
                 <div className="col-lg-9 text-center">
                     <h1 className='my-5 text-uppercase font-sg'>La bonne fessée</h1>
-                     <button
-                    className="btn btn-secondary w-100"
+                                         <button
+                    className="sg-btn-outline w-100"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseLBF"
                     aria-expanded="false"
                     aria-controls="collapseLBF"
                     >
-                    En savoir plus...
+                    En savoir plus... <i className="bi bi-chevron-compact-down"></i>
                     </button>
 
                     <div className="collapse" id="collapseLBF">
                         <div className="card card-body w-100">
-                    <p className='sg-font-size sg-color-secondary p-5 lh-1'>Création de l’identité visuelle d’une pizzeria La Bonne Fessée.
+                    <p className='sg-font-size sg-color-secondary p-2 lh-1'>Création de l’identité visuelle d’une pizzeria La Bonne Fessée.
                         L’idée était de jouer sur le ton décalé tout en gardant une approche moderne, lisible et jamais vulgaire. Le logo
                         combine une typographie pleine de caractère avec une mise en page simple et efficace.
                         <br /><br />

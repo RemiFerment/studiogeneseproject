@@ -54,10 +54,21 @@ li {
   background-color: $color-1
 }
 
+.sg-btn-outline {
+  border: $color-1 solid 1px;
+  border-radius: 5px;
+  padding: 8px;
+  color : $color-1
+}
+.sg-btn-outline:hover {
+  background-color: #FEF9DD;
+  transition: 150ms ease-in-out;
+}
+
 .sg-bg-hover {
   background-color: $color-2;
 }
 
 .sg-font-size {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }

@@ -11,15 +11,15 @@ const Nangas = () => {
                 </div>
                 <div className="col-lg-9 text-center">
                     <h1 className='my-5 text-uppercase font-sg'>Nangas</h1>
-                     <button
-                    className="btn btn-secondary w-100"
+<button
+                    className="sg-btn-outline w-100"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseNangas"
                     aria-expanded="false"
                     aria-controls="collapseNangas"
                     >
-                    En savoir plus...
+                    En savoir plus... <i className="bi bi-chevron-compact-down"></i>
                     </button>
 
                     <div className="collapse" id="collapseNangas">
@@ -36,7 +36,7 @@ const Nangas = () => {
                     <br /><br />
                     <img src="./img/card/nangas/logo nangas.webp" alt="Logo Nangas" className='img-fluid d-block w-100 my-3' />
                     <img src="./img/card/nangas/banniere-nangas-03.webp" alt="Bannière Nangas" className='img-fluid d-block w-100 my-3' />
-                    <LoopingVideo src="/motions/asset_1.mp4" poster="" className='w-100' />
+                    <LoopingVideo webmSrc="/motions/asset_1.webm" mp4Src="/motions/asset_1.mp4" poster="/motions/asset_1.webp" classString='w-100' />
                 </div>
             </div>
         </div>

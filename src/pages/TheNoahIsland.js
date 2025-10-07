@@ -26,19 +26,19 @@ const TheNoahIsland = () => {
           <h1 className="my-5 text-uppercase font-sg">The Noah Island</h1>
 
           <button
-            className="btn btn-secondary w-100"
+            className="w-100 sg-btn-outline"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseTNI"
             aria-expanded="false"
             aria-controls="collapseTNI"
           >
-            En savoir plus...
+            En savoir plus...<i className="bi bi-chevron-compact-down"></i>
           </button>
 
           <div className="collapse" id="collapseTNI">
             <div className="card card-body w-100">
-              <p className="sg-font-size sg-color-secondary p-5 lh-1">
+              <p className="sg-font-size sg-color-secondary p-2 lh-1">
                 <strong>The Noah Island</strong>, située au cœur de l’océan Pacifique, est une île unique en son genre,
                 née d’une réflexion sur le thème du manque. Pour combler le manque de communication entre les maîtres et
                 leurs animaux (responsable de 78 % des conflits), nous avons imaginé un lieu entouré d’un dôme diffusant
