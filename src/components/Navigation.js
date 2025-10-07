@@ -12,12 +12,20 @@ export const navItems = [
 const Navigation = () => {
   return (
     <nav className="navbar navbar-expand-lg d-flex align-items-start justify-content-start w-100">
-      <div className="container-fluid navigation d-flex flex-column justify-content-between align-items-center">
+      <div className="container-fluid mt-0 navigation d-flex flex-column justify-content-between align-items-center">
         {/* Logo */}
         <div className="navigation mt-4 flex-2 d-none d-xl-block">
           <div className="text-center me-5">
             <a href="/">
               <img src="./img/Logo.webp" alt="Logo Studio Genèse" width="50%" />
+            </a>
+          </div>
+        </div>
+        {/* Logo */}
+        <div className="navigation flex-2 d-block d-xl-none">
+          <div className="text-center">
+            <a href="/">
+              <img src="./img/Logo.webp" alt="Logo Studio Genèse" width="20%" />
             </a>
           </div>
         </div>
